@@ -9,15 +9,15 @@
 This is a
 [Text-Fabric](https://github.com/annotation/text-fabric) app
 for working with the
-[General missives](https://github.com/Dans-labs/clariah-gm) corpus:
+[General missives](https://github.com/CLARIAH/wp6-missieven) corpus:
 Letters between the governors of the Dutch East India Company and the government during 1600-1800.
 
 Get started with the
-[tutorial](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/missieven/start.ipynb).
+[tutorial](https://nbviewer.jupyter.org/github/CLARIAH/wp6-missieven/blob/master/tutorial/start.ipynb).
 
 See also
-[about](https://github.com/Dans-labs/clariah-gm),
-[transcription](https://github.com/Nino-cunei/tfFromAtf/blob/master/docs/transcription.md).
+[about](https://github.com/CLARIAH/wp6-missieven),
+[transcription](https://github.com/CLARIAH/wp6-missieven/blob/master/docs/transcription.md).
 [online representation by the HuygensING institute](http://resources.huygens.knaw.nl/retroboeken/generalemissiven/#page=0&accessor=toc&view=homePane)
 
 ![logo](images/logo.png)
@@ -27,7 +27,7 @@ See also
 We have generated a search interface for the missieven from the Text-Fabric data.
 
 Just click
-[missieven-search](https://annotation.github.io/app-missieven/)
+[missieven-search](https://CLARIAH.github.io/wp6-missieven-search/)
 and off you go.
 
 It is experimental.
