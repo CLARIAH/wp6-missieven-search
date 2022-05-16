@@ -1088,13 +1088,15 @@ class GuiProvider {
     const {
       settings: { simple },
     } = State.getj()
-    const { valueMap, description } = lrInfo
+    const { explain, valueMap, valueMapAcro, description } = lrInfo
     const html = []
     const header = `<button type="button" ntype="${nType}" layer="${layer}"
         class="lyr" title="${description}"
       >${layer}</button>`
     if (!simple) {
       if (valueMap) {
+        const op1 = valueMapAcro ? "=" : " "
+        const op2 = valueMapAcro ? "" : " x"
         html.push(`
     <details>
       <summary>${header}</summary>
@@ -1104,10 +1106,12 @@ class GuiProvider {
             ? valueMap
             : Object.entries(valueMap)
           for (const [acro, full] of valueItems) {
+            const { [acro]: what } = explain || {}
+            const whatRep = (what == null) ? "" : ` = ${what}`
             html.push(`
     <div class="legend">
-      <b><code>${acro}</code></b> =
-      <i><code>${full}</code></i>
+      <b><code>${acro}${whatRep}</code></b> ${op1}
+      <i><code>${full}</code> ${op2}</i>
     </div>`)
           }
         }

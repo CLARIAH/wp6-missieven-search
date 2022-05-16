@@ -15,7 +15,7 @@ const configData = {
   }
  },
  "defs": {
-  "lsVersion": "v094@2022-05-04T14:35:10",
+  "lsVersion": "v095@2022-05-16T12:36:36",
   "client": "text",
   "org": "clariah",
   "repo": "wp6-missieven",
@@ -185,12 +185,12 @@ const configData = {
  "focusType": "line",
  "ntypesinit": {
   "word": 1,
-  "line": 6018773,
-  "letter": 6018166,
-  "volume": 6638970
+  "line": 6018783,
+  "letter": 6018176,
+  "volume": 6638980
  },
  "ntypessize": {
-  "word": 5977360,
+  "word": 5977367,
   "line": 526918,
   "letter": 607,
   "volume": 14
@@ -232,17 +232,26 @@ const configData = {
  "layers": {
   "word": {
    "text": {
+    "explain": null,
     "valueMap": null,
+    "valueMapAcro": false,
     "tip": false,
     "pos": "text",
     "pattern": "",
     "description": "text representation"
    },
    "kind": {
+    "explain": {
+     "r": "editorial",
+     "n": "foot note",
+     "o": "original letter",
+     "f": "folio reference",
+     "?": "other kind"
+    },
     "valueMap": [
      [
       "?",
-      43071
+      43073
      ],
      [
       "f",
@@ -254,13 +263,14 @@ const configData = {
      ],
      [
       "o",
-      3369077
+      3369078
      ],
      [
       "r",
-      2349087
+      2349091
      ]
     ],
+    "valueMapAcro": false,
     "tip": false,
     "pos": "kind",
     "pattern": "",
@@ -269,7 +279,9 @@ const configData = {
   },
   "line": {
    "location": {
+    "explain": null,
     "valueMap": null,
+    "valueMapAcro": false,
     "tip": false,
     "pos": "location",
     "pattern": "",
@@ -278,1301 +290,862 @@ const configData = {
   },
   "letter": {
    "page": {
+    "explain": null,
     "valueMap": null,
+    "valueMapAcro": false,
     "tip": false,
     "pos": "page",
     "pattern": "",
     "description": "starting page number within the book"
    },
    "author": {
+    "explain": null,
     "valueMap": [
      [
-      "Abraham Patras, Wijbrant Blom, Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne",
-      5
-     ],
-     [
-      "Abraham Patras, Wijbrant Blom, Herman van Bayen, Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Frederik Julius Coyett, Gustaaf Willem van Imhoff, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen",
-      2
-     ],
-     [
-      "Abraham Patras, Wijbrant Blom, Herman van Bayen, Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Frederik Julius Coyett, Gustaaf Willem van Imhoff, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes",
-      1
-     ],
-     [
-      "Abraham Patras, Wijbrant Blom, Herman van Bayen, Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Frederik Julius Coyett, Gustaaf Willem van Imhoff, Joannes Bernard, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen",
-      2
-     ],
-     [
-      "Abraham van Riebeeck, Abraham Douglas, Christoffel van Swoll, Cornelis Chasteleyn, Mattheus de Haan, Frans Castelyn, Hendrik Zwaardecroon, Pieter Rooselaar, Theodorus de Haeze, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing",
-      1
-     ],
-     [
-      "Abraham van Riebeeck, Abraham Douglas, Christoffel van Swoll, Cornelis Chasteleyn, Mattheus de Haan, Frans Castelyn, Laurens Tolling, Hendrik Zwaardecroon, Pieter Rooselaar, Theodorus de Haeze, Joannes van Steelant, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing",
-      2
-     ],
-     [
-      "Abraham van Riebeeck, Abraham Douglas, Christoffel van Swoll, Cornelis Chasteleyn, Mattheus de Haan, Frans Castelyn, Laurens Tolling, Hendrik Zwaardecroon, Pieter Rooselaar, Theodorus de Haeze, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing",
-      3
-     ],
-     [
-      "Abraham van Riebeeck, Abraham Douglas, Christoffel van Swoll, Cornelis Chasteleyn, Mattheus de Haan, Laurens Tolling, Hendrik Zwaardecroon, Pieter Rooselaar, Theodorus de Haeze, Frans Castelyn, Joannes van Steelant, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing",
-      1
-     ],
-     [
-      "Abraham van Riebeeck, Abraham Douglas, Christoffel van Swoll, Cornelis Chasteleyn, Mattheus de Haan, Laurens Tolling, Hendrik Zwaardecroon, Theodorus de Haeze, Frans Castelyn, Joannes van Steelant, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing",
-      1
-     ],
-     [
-      "Abraham van Riebeeck, Abraham Douglas, Christoffel van Swoll, Pieter de Vos, Cornelis Chasteleyn, Hendrick Zwaardecroon, Mattheus de Haan, Theodorus de Haeze, Laurens Tolling, Frans Castelyn",
-      1
-     ],
-     [
-      "Abraham van Riebeeck, Abraham Douglas, Christoffel van Swoll, Pieter de Vos, Cornelis Chasteleyn, Hendrick Zwaardecroon, Pieter Rooselaar, Mattheus de Haan, Theodorus de Haeze, Laurens Tolling, Frans Castelyn",
-      2
-     ],
-     [
-      "Abraham van Riebeeck, Abraham Douglas, Christoffel van Swoll, Pieter de Vos, Cornelis Chasteleyn, Mattheus de Haan, Laurens Tolling, Hendrik Zwaardecroon, Pieter Rooselaar, Theodorus de Haeze, Frans Castelyn, Joannes van Steelant, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing",
-      1
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Gualterus Wouters",
-      1
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Elias Guillot",
-      2
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Elias Guillot, Nicolaas Crul, Joannes Macaré, Daniël Nolthenius",
-      1
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Elias Guillot, Nicolaas Crul, Joannes Macaré, Daniël Nolthenius, Nicolaas van Berendregt",
-      1
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Elias Guillot, Nicolaas van Berendregt, Nicolaas Crul, Joannes Macaré, Daniël Nolthenius",
-      2
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Gualterus Wouters, Elias Guillot",
-      1
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Gualterus Wouters, Joannes Sautijn",
-      3
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Gustaaf Willem van Imhoff, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Elias Guillot, Nicolaas van Berendregt, Nicolaas Crul, Joannes Macaré, Daniël Nolthenius, Maurits van Aerden",
-      1
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Gustaaf Willem van Imhoff, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Elias Guillot, Nicolaas van Berendregt, Nicolaas Crul, Joannes Macaré, Daniël Nolthenius, Maurits van Aerden, Jacob Lakeman",
-      1
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Herman van Suchtelen, Pieter Duquesne, Elias Guillot, Nicolaas van Berendregt, Nicolaas Crul, Joannes Macaré, Daniël Nolthenius, Maurits van Aerden",
-      1
-     ],
-     [
-      "Adriaan Valckenier, Joan Paul Schaghen, Joannes Thedens, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Elias Guillot, Nicolaas van Berendregt, Nicolaas Crul, Joannes Macaré, Daniël Nolthenius, Maurits van Aerden",
-      2
-     ],
-     [
-      "Anthonio Hurdt, Joannes Camphuys, Marten Pit, Nicolaas Schaghen, Joan van Hoorn",
-      2
-     ],
-     [
-      "Antonio van Diemen",
-      1
-     ],
-     [
-      "Antonio van Diemen, Anthonio Caen, Cornelis van der Lijn",
-      3
-     ],
-     [
-      "Antonio van Diemen, Anthonio Caen, Cornelis van der Lijn, Joan Maetsuycker, Justus Schouten, Salomon Sweers",
-      1
-     ],
-     [
-      "Antonio van Diemen, Anthonio Caen, Cornelis van der Lijn, Joan Maetsuycker, Justus Schouten, Salomon Sweers, Cornelis Witsen",
-      2
-     ],
-     [
-      "Antonio van Diemen, Cornelis van der Lijn",
-      3
-     ],
-     [
-      "Antonio van Diemen, Cornelis van der Lijn, Joan Maetsuycker, François Caron, Justus Schouten",
-      1
-     ],
-     [
-      "Antonio van Diemen, Cornelis van der Lijn, Joan Maetsuycker, François Caron, Justus Schouten, Salomon Sweers",
-      2
-     ],
-     [
-      "Antonio van Diemen, Cornelis van der Lijn, Joan Maetsuycker, Justus Schouten, Salomon Sweers",
-      7
-     ],
-     [
-      "Antonio van Diemen, Cornelis van der Lijn, Johan van Twist",
-      1
-     ],
-     [
-      "Antonio van Diemen, Cornelis van der Lijn, Salomon Sweers, Paulus Croocq, Simon van Alphen",
-      1
-     ],
-     [
-      "Antonio van Diemen, Cornelis van der Lijn, Salomon Sweers, Simon van Alphen",
-      2
-     ],
-     [
-      "Antonio van Diemen, Philips Lucasz, Antonio Caen",
-      1
-     ],
-     [
-      "Antonio van Diemen, Philips Lucasz, Artus Gijsels, Antonio Caen",
-      1
-     ],
-     [
-      "Antonio van Diemen, Philips Lucasz, Artus Gijsels, Hans Putmans, Antonio Caen, Joan Ottens",
-      1
-     ],
-     [
-      "Antonio van Diemen, Philips Lucasz, Artus Gijsels, Jan van der Burch",
-      1
-     ],
-     [
-      "Antonio van Diemen, Philips Lucasz, Carel Reniers, Abraham Welsing, Cornelis van der Lijn",
-      3
-     ],
-     [
-      "Carel Reniers, Joan Maetsuycker, Carel Hartsinck, Joan Cunaeus, Cornelis Caesar, Dirck Jansz Steur",
-      2
-     ],
-     [
-      "Carel Reniers, Joan Maetsuycker, Gerard Demmer, Carel Hartsinck, Aernout de Vlaming van Oudtshoorn, Cornelis Caesar, Willem Versteghen",
-      2
-     ],
-     [
-      "Carel Reniers, Joan Maetsuycker, Gerard Demmer, Carel Hartsinck, Aernout de Vlaming van Oudtshoorn, Jan van Teylingen, Cornelis Caesar",
-      1
-     ],
-     [
-      "Carel Reniers, Joan Maetsuycker, Gerard Demmer, Joan Cunaeus, Arnold de Vlaming van Oudtshoorn, Arnold Heussen, Willem van der Beecken",
-      1
-     ],
-     [
-      "Carel Reniers, Joan Maetsuycker, Gerard Demmer, Joan Cunaeus, Willem Versteghen, Jacob de With, Dirck Jansz Steur",
-      2
-     ],
-     [
-      "Christoffel van Swoll, Abraham Douglas, Cornelis Chasteleyn, Mattheus de Haan, Frans Castelyn, Laurens Tolling, Hendrik Zwaardecroon, Pieter Rooselaar, Theodorus de Haeze, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing",
-      3
-     ],
-     [
-      "Christoffel van Swoll, Abraham Douglas, Mattheus de Haan, Frans Castelyn, Hendrik Zwaardecroon, Theodorus de Haeze, Laurens Tolling, Pieter Rooselaar, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing, Ferdinand de Groot",
-      1
-     ],
-     [
-      "Christoffel van Swoll, Abraham Douglas, Mattheus de Haan, Frans Castelyn, Laurens Tolling, Hendrik Zwaardecroon, Pieter Rooselaar, Theodorus de Haeze, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing",
-      3
-     ],
-     [
-      "Christoffel van Swoll, Frans Castelyn, Mattheus de Haan, Hendrik Zwaardecroon, Samuel Timmerman, Theodorus de Haeze, Jacob Faes, Laurens Tolling, Joan Cornelis d'Ableing, Ferdinand de Groot, Willem Six, Cornelis Hasselaar",
-      1
-     ],
-     [
-      "Christoffel van Swoll, Frans Castelyn, Mattheus de Haan, Hendrik Zwaardecroon, Theodorus de Haeze, Laurens Tolling, Pieter Rooselaar, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing, Ferdinand de Groot",
-      2
-     ],
-     [
-      "Christoffel van Swoll, Frans Castelyn, Mattheus de Haan, Hendrik Zwaardecroon, Theodorus de Haeze, Laurens Tolling, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing, Ferdinand de Groot",
-      1
-     ],
-     [
-      "Christoffel van Swoll, Frans Castelyn, Mattheus de Haan, Hendrik Zwaardecroon, Theodorus de Haeze, Samuel Timmerman, Jacob Faes, Laurens Tolling, Joan Cornelis d'Ableing, Ferdinand de Groot, Willem Six",
-      4
-     ],
-     [
-      "Christoffel van Swoll, Frans Castelyn, Mattheus de Haan, Hendrik Zwaardecroon, Theodorus de Haeze, Samuel Timmerman, Jacob Faes, Laurens Tolling, Joan Cornelis d'Ableing, Ferdinand de Groot, Willem Six, Cornelis Hasselaar",
-      2
-     ],
-     [
-      "Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Willem van Outhoorn, Joan van Hoorn",
-      1
-     ],
-     [
-      "Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Willem van Outhoorn, Joannes Camphuys, Frederik Bent",
-      4
-     ],
-     [
-      "Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Willem van Outhoorn, Joannes Camphuys, Marten Pit, Nicolaas Schaghen, Joan van Hoorn",
-      1
-     ],
-     [
-      "Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Willem van Outhoorn, Joannes Camphuys, Nicolaas Schaghen, Joan van Hoorn",
-      2
-     ],
-     [
-      "Cornelis van der Lijn, François Caron, Carel Reniers, Anthonio Caen",
-      1
-     ],
-     [
-      "Cornelis van der Lijn, François Caron, Carel Reniers, Anthonio Caen, Jochem Roelofsz van Dutecum",
-      2
-     ],
-     [
-      "Cornelis van der Lijn, François Caron, Carel Reniers, Anthonio Caen, Jochem Roelofsz van Dutecum, Gerard Demmer, Wollebrant Geleynsz de Jongh",
-      1
-     ],
-     [
-      "Cornelis van der Lijn, François Caron, Carel Reniers, Gerard Demmer",
-      1
-     ],
-     [
-      "Cornelis van der Lijn, François Caron, Carel Reniers, Gerard Demmer, Arent Barendsz",
-      1
-     ],
-     [
-      "Cornelis van der Lijn, François Caron, Carel Reniers, Jochem Roelofsz van Dutecum, Gerard Demmer",
-      2
-     ],
-     [
-      "Cornelis van der Lijn, Joan Maetsuycker, Carel Reniers, Simon van Alphen",
-      2
-     ],
-     [
-      "Cornelis van der Lijn, Joan Maetsuycker, Simon van Alphen",
-      1
-     ],
-     [
-      "Diderik Durven, Cornelis Hasselaar, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Dirk van Cloon, Jacob Christiaan Pielat, Joan Paul Schaghen",
-      2
-     ],
-     [
-      "Diderik Durven, Cornelis Hasselaar, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Dirk van Cloon, Jacob Christiaan Pielat, Joan Paul Schaghen, Daniël van der Maas",
-      1
-     ],
-     [
-      "Diderik Durven, Cornelis Hasselaar, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Valckenier, Dirk van Cloon, Jacob Christiaan Pielat, Joan Paul Schaghen",
-      1
-     ],
-     [
-      "Diderik Durven, Cornelis Hasselaar, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Rogier Thomas van Heyningen, Adriaan Oostwalt, Adriaan Valckenier, Dirk van Cloon, Wouter Hendrix",
-      1
-     ],
-     [
-      "Diderik Durven, Cornelis Hasselaar, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Rogier Thomas van Heyningen, Herman van Bayen, Adriaan Oostwalt",
+      "Abbema",
       9
      ],
      [
-      "Diderik Durven, Cornelis Hasselaar, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Rogier Thomas van Heyningen, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Dirk van Cloon, Wouter Hendrix",
-      3
+      "Alting",
+      12
      ],
      [
-      "Diderik Durven, Cornelis Hasselaar, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Rogier Thomas van Heyningen, Herman van Bayen, Adriaan Valckenier, Dirk van Cloon, Wouter Hendrix",
-      1
-     ],
-     [
-      "Diderik Durven, Cornelis Hasselaar, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Dirk van Cloon, Jacob Christiaan Pielat, Joan Paul Schaghen",
-      1
-     ],
-     [
-      "Dirk van Cloon, Joan Everard van der Schuer, Michiel Westpalm, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Frederik Julius Coyett, Gustaaf Willem van Imhoff, Josua van Arrewijne, Joannes Bernard",
-      1
-     ],
-     [
-      "Dirk van Cloon, Michiel Westpalm, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Gustaaf Willem van Imhoff, Josua van Arrewijne",
-      1
-     ],
-     [
-      "Dirk van Cloon, Wijbrant Blom, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Frederik Julius Coyett, Gustaaf Willem van Imhoff, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen",
-      1
-     ],
-     [
-      "Dirk van Cloon, Wijbrant Blom, Herman van Bayen, Adriaan Valckenier, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Frederik Julius Coyett, Gustaaf Willem van Imhoff, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen",
-      1
-     ],
-     [
-      "Dirk van Cloon, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Jacob Christiaan Pielat, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Frederik Julius Coyett, Gustaaf Willem van Imhoff, Josua van Arrewijne",
-      1
-     ],
-     [
-      "Dirk van Cloon, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Joan Paul Schaghen, Abraham Patras, Joannes Thedens",
-      1
-     ],
-     [
-      "Dirk van Cloon, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Frederik Julius Coyett",
+      "Backer",
       4
      ],
      [
-      "Dirk van Cloon, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Frederik Julius Coyett",
-      2
-     ],
-     [
-      "Dirk van Cloon, Wijbrant Blom, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Jacob Christiaan Pielat, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Frederik Julius Coyett, Gustaaf Willem van Imhoff, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen",
+      "Barendsz",
       1
      ],
      [
-      "Dirk van Cloon, Wijbrant Blom, Michiel Westpalm, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Jacob Christiaan Pielat, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Frederik Julius Coyett, Gustaaf Willem van Imhoff",
-      1
+      "Becker",
+      8
      ],
      [
-      "Gerard Reynst",
+      "Bent",
+      12
+     ],
+     [
+      "Bergman",
+      8
+     ],
+     [
+      "Bernard",
       3
      ],
      [
-      "Gouverneur-generaal, Raden",
+      "Blocq Martensz",
       1
      ],
      [
-      "Gustaaf Willem van Imhoff, Daniël Nolthenius, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Jacob Mossel, Arend van Broyel, Hugo Verijssel, Johan Herman Theling",
-      2
+      "Blom",
+      88
      ],
      [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Jan Huyghens",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob Mossel, Arend van Broyel, Hugo Verijssel, Jacob van der Waeyen, Petrus Albertus van der Parra",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob Mossel, Arend van Broyel, Hugo Verijssel, Jacob van der Waeyen, Petrus Albertus van der Parra, Galenus Mersen, Jurgen van der Spar",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob Mossel, Arend van Broyel, Hugo Verijssel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob Mossel, Arend van Broyel, Jacob van der Waeyen, Jurgen van der Spar, Jan Huyghens",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob Mossel, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob Mossel, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Jan Huyghens",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Arend van Broyel, Hugo Verijssel",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Jacob Mossel, Arend van Broyel, Hugo Verijssel",
-      4
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Jacob Mossel, Arend van Broyel, Hugo Verijssel, Jacob van der Waeyen, Petrus Albertus van der Parra",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Jacob Mossel, Arend van Broyel, Hugo Verijssel, Jacob van der Waeyen, Petrus Albertus van der Parra, Galenus Mersen",
-      4
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Nicolaas Crul, Daniël Nolthenius, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Jacob Mossel, Arend van Broyel, Hugo Verijssel, Johan Herman Theling",
-      2
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Daniël Overbeek, Jacob van den Bosch, Gijsbertus Schuylenburg, Jacob Mossel, Arend van Broyel",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Gijsbertus Schuylenburg, Jacob Mossel, Arend van Broyel",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Pieter Rochus Pasques de Chavonnes, Nicolaas Crul, Daniël Nolthenius, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Jacob Mossel, Arend van Broyel, Hugo Verijssel, Johan Herman Theling",
-      3
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Pieter Rochus Pasques de Chavonnes, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Jacob Lakeman",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Pieter Rochus Pasques de Chavonnes, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Jacob Lakeman, Joannes Mattheus Cluysenaar",
-      4
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Pieter Rochus Pasques de Chavonnes, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Jacob Lakeman, Joannes Mattheus Cluysenaar, Daniël Overbeek, Gijsbertus Schuylenburg, Jacob Mossel",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Pieter Rochus Pasques de Chavonnes, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Jacob Lakeman, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Gijsbertus Schuylenburg, Jacob Mossel",
-      2
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Pieter Rochus Pasques de Chavonnes, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Jacob Lakeman, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Jan Albert Sichterman, Gijsbertus Schuylenburg, Jacob Mossel",
-      2
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Pieter Rochus Pasques de Chavonnes, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Gijsbertus Schuylenburg, Jacob Mossel",
-      1
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Pieter Rochus Pasques de Chavonnes, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Gijsbertus Schuylenburg, Jacob Mossel, Arend van Broyel",
-      3
-     ],
-     [
-      "Gustaaf Willem van Imhoff, Pieter Rochus Pasques de Chavonnes, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob van den Bosch, Jacob Mossel, Arend van Broyel, Hugo Verijssel, Johan Herman Theling",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Frans Castelyn, Mattheus de Haan, Jacob Faes, Anthony Huysman, Cornelis Hasselaar, Joan Adriaan Crudop, Laurens Tolling, Diderik Durven, Wijbrant Blom, Petrus Vuyst",
-      2
-     ],
-     [
-      "Hendrik Zwaardecroon, Frans Castelyn, Mattheus de Haan, Jacob Faes, Anthony Huysman, Cornelis Hasselaar, Joan Adriaan Crudop, Laurens Tolling, Hans Frederik Bergman, Diderik Durven, Wijbrant Blom, Petrus Vuyst",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Frans Castelyn, Mattheus de Haan, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing, Anthony Huysman, Laurens Tolling, Cornelis Hasselaar, Joan Adriaan Crudop, Diderik Durven",
-      2
-     ],
-     [
-      "Hendrik Zwaardecroon, Frans Castelyn, Mattheus de Haan, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing, Anthony Huysman, Laurens Tolling, Cornelis Hasselaar, Joan Adriaan Crudop, Diderik Durven, Wijbrant Blom",
-      2
-     ],
-     [
-      "Hendrik Zwaardecroon, Frans Castelyn, Mattheus de Haan, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing, Anthony Huysman, Laurens Tolling, Joan Adriaan Crudop, Diderik Durven",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Frans Castelyn, Mattheus de Haan, Samuel Timmerman, Jacob Faes, Laurens Tolling, Joan Cornelis d'Ableing, Anthony Huysman",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Frans Castelyn, Mattheus de Haan, Samuel Timmerman, Jacob Faes, Laurens Tolling, Joan Cornelis d'Ableing, Cornelis Hasselaar, Anthony Huysman",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Frans Castelyn, Mattheus de Haan, Samuel Timmerman, Jacob Faes, Laurens Tolling, Joan Cornelis d'Ableing, Ferdinand de Groot, Willem Backer Jacobsz, Cornelis Hasselaar, Anthony Huysman",
-      3
-     ],
-     [
-      "Hendrik Zwaardecroon, Frans Castelyn, Mattheus de Haan, Samuel Timmerman, Jacob Faes, Laurens Tolling, Joan Cornelis d'Ableing, Willem Backer Jacobsz, Cornelis Hasselaar, Anthony Huysman",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Diderik Durven, Wybrand Blom, Petrus Vuyst",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Joan Adriaan Crudop, Laurens Tolling, Diderik Durven, Ewout van Dishoeck, Wijbrant Blom",
-      3
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Joan Adriaan Crudop, Laurens Tolling, Hans Frederik Bergman, Diderik Durven, Ewout van Dishoeck, Wijbrant Blom",
-      3
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Joan Adriaan Crudop, Laurens Tolling, Hans Frederik Bergman, Diderik Durven, Ewout van Dishoeck, Wybrand Blom",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Joan Adriaan Crudop, Laurens Tolling, Hans Frederik Bergman, Diderik Durven, Wijbrant Blom",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Laurens Tolling, Diderik Durven, Ewout van Dishoeck, Wijbrant Blom",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Laurens Tolling, Diderik Durven, Ewout van Dishoeck, Wijbrant Blom, Joannes Philippus Sipman",
-      2
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Laurens Tolling, Diderik Durven, Wijbrant Blom, Joannes Philippus Sipman",
-      2
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Laurens Tolling, Diderik Durven, Wijbrant Blom, Petrus Vuyst, Joannes Philippus Sipman",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Jacob Faes, Anthony Huysman, Cornelis Hasselaar, Joan Adriaan Crudop, Laurens Tolling, Hans Frederik Bergman, Diderik Durven, Wijbrant Blom",
-      1
-     ],
-     [
-      "Hendrik Zwaardecroon, Mattheus de Haan, Jacob Faes, Anthony Huysman, Cornelis Hasselaar, Joan Adriaan Crudop, Laurens Tolling, Hans Frederik Bergman, Diderik Durven, Wijbrant Blom, Petrus Vuyst",
-      1
-     ],
-     [
-      "Henrick Brouwer",
-      2
-     ],
-     [
-      "Henrick Brouwer Dr, Pieter Vlack, Jan van der Burch",
-      1
-     ],
-     [
-      "Henrick Brouwer Dr, Pieter Vlack, Maerten Ysbrantsz, Jan van der Burch",
-      2
-     ],
-     [
-      "Henrick Brouwer, Antonio van Diemen Dr, Pieter Vlack, Jan van der Burch",
-      3
-     ],
-     [
-      "Henrick Brouwer, Antonio van Diemen Dr, Pieter Vlack, Jan van der Burch Mr, Antonio van den Heuvel",
-      1
-     ],
-     [
-      "Henrick Brouwer, Antonio van Diemen Dr, Pieter Vlack, Philips Lucasz, Jan van der Burch",
-      1
-     ],
-     [
-      "Henrick Brouwer, Antonio van Diemen, Jan van der Burch",
-      1
-     ],
-     [
-      "Henrick Brouwer, Antonio van Diemen, Jan van der Burch, Jan van Broeckum",
-      1
-     ],
-     [
-      "Henrick Brouwer, Antonio van Diemen, Philips Lucasz, Maerten Ysbrantsz, Artus Gijsels, Jan van der Burch",
-      1
-     ],
-     [
-      "Jacob Mossel, Arend van Broyel, Jacob van der Waeyen, Jurgen van der Spar, Julius Valentijn Steijn van Gollenesse, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel",
-      1
-     ],
-     [
-      "Jacob Mossel, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Julius Valentijn Steijn van Gollenesse, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel",
-      1
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Jeremias van Riemsdijk, Reynier de Klerk, Jan Elias van Mijlendonk",
-      2
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Joan Andreas van Hohendorf, Jeremias van Riemsdijk, Reynier de Klerk, Jan Elias van Mijlendonk",
-      3
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Julius Valentijn Steijn van Gollenesse, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman",
-      2
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Julius Valentijn Steijn van Gollenesse, Pieter van de Velde, Dithard van Rheede, Huijbert Willem van Bazel, Librecht Hooreman, Joan Andreas van Hohendorf, Jeremias van Riemsdijk",
-      1
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Jeremias van Riemsdijk",
-      1
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Jeremias van Riemsdijk, Reynier de Klerk",
-      1
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Joan Andreas van Hohendorf, Jeremias van Riemsdijk",
-      2
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Joan Andreas van Hohendorf, Jeremias van Riemsdijk, Jan Schreuder, Reynier de Klerk",
-      4
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Joan Andreas van Hohendorf, Jeremias van Riemsdijk, Reynier de Klerk",
-      5
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Joan Andreas van Hohendorf, Jeremias van Riemsdijk, Reynier de Klerk, Joan Gideon Loten",
-      1
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Pieter van de Velde, Dithard van Rheede, Huijbert Willem van Bazel, Librecht Hooreman, Joan Andreas van Hohendorf, Jeremias van Riemsdijk, Adriaan de Nijs, Reynier de Klerk",
-      1
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Pieter van de Velde, Dithard van Rheede, Huijbert Willem van Bazel, Librecht Hooreman, Joan Andreas van Hohendorf, Jeremias van Riemsdijk, Reynier de Klerk",
-      1
-     ],
-     [
-      "Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Pieter van de Velde, Dithard van Rheede, Huijbert Willem van Bazel, Librecht Hooreman, Joan Andreas van Hohendorf, Jeremias van Riemsdijk, Reynier de Klerk, Joan Gideon Loten",
-      1
-     ],
-     [
-      "Jacob Mossel, Joannes Mattheus Cluysenaar, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Joan Gideon Loten, Julius Valentijn Steijn van Gollenesse",
-      1
-     ],
-     [
-      "Jacob Mossel, Joannes Mattheus Cluysenaar, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Joan Gideon Loten, Julius Valentijn Steijn van Gollenesse, Pieter van de Velde",
-      3
-     ],
-     [
-      "Jacob Mossel, Joannes Mattheus Cluysenaar, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Julius Valentijn Steijn van Gollenesse, Pieter van de Velde",
-      1
-     ],
-     [
-      "Jacob Mossel, Joannes Mattheus Cluysenaar, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Julius Valentijn Steijn van Gollenesse, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel",
-      4
-     ],
-     [
-      "Jacob Mossel, Joannes Mattheus Cluysenaar, Daniël Overbeek, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Jan Huyghens, Joan Gideon Loten",
-      3
-     ],
-     [
-      "Jacob Mossel, Joannes Mattheus Cluysenaar, Daniël Overbeek, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Joan Gideon Loten",
-      2
-     ],
-     [
-      "Jacob Mossel, Joannes Mattheus Cluysenaar, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Joan Gideon Loten, Julius Valentijn Steijn van Gollenesse, Pieter van de Velde, Dithard van Rheede, Adriaan de Nijs, Huijbert Willem van Bazel",
-      1
-     ],
-     [
-      "Jacques Specx Dr, Pieter Vlack, Antonio van Diemen, Jan van der Burch",
-      1
-     ],
-     [
-      "Jacques Specx Dr, Pieter Vlack, Antonio van Diemen, Pieter Nuyts, Crijn van Raemburch",
-      1
-     ],
-     [
-      "Jacques Specx Dr, Pieter Vlack, Jan van der Burch, Arent Gardenijs",
-      1
-     ],
-     [
-      "Jan Pietersz Coen",
-      3
-     ],
-     [
-      "Jan Pietersz Coen Dr, Martinus Sonck",
-      1
-     ],
-     [
-      "Jan Pietersz Coen Dr, Pieter Vlack, Antonio van Diemen",
-      3
-     ],
-     [
-      "Jan Pietersz Coen, Frederick de Houtman, Pieter de Carpentier Dr, Martinus Sonck",
-      1
-     ],
-     [
-      "Jan Pietersz Coen, Frederick de Houtman, Pieter de Carpentier, Jacob Dedel Dr, Martinus Sonck",
-      1
-     ],
-     [
-      "Jan Pietersz Coen, Jacob Dedel",
-      1
-     ],
-     [
-      "Jan Pietersz Coen, Pieter de Carpentier, Jacob Dedel",
-      1
-     ],
-     [
-      "Jan Pietersz Coen, Pieter de Carpentier, Jacob Dedel Dr, Martinus Sonck",
-      1
-     ],
-     [
-      "Jan Pietersz Coen, Pieter de Carpentier, Jacob Dedel, Frederick de Houtman, Willem Jansz",
-      1
-     ],
-     [
-      "Jan Pietersz Coen, Pieter de Carpentier, Jacques Specx, Pieter van Duynen, Antonio van Diemen, Jeremias de Meester",
-      1
-     ],
-     [
-      "Jan Pietersz Coen, Pieter de Carpentier, Jan Dircksz Lam, Willem van Antzen",
-      1
-     ],
-     [
-      "Jan Pietersz Coen, Pieter de Carpentier, Willem Jansz, Jacob Dedel",
-      1
-     ],
-     [
-      "Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen",
-      4
-     ],
-     [
-      "Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen, Jacques Specx",
-      1
-     ],
-     [
-      "Jan Pietersz Coen, Pieter van Duynen, Antonio van Diemen, Jeremias de Meester",
-      3
-     ],
-     [
-      "Jan Pietersz Coen, Willem Jansz, Jacques Lefebvre, Jan van Gorcom Dr, Pieter Vlack, Antonio van Diemen, Adriaan Blocq Martensz",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Aernout de Vlaming van Oudtshoorn, Nicolaes Verburch, Dirck Jansz Steur",
-      3
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Arnold de Vlaming van Oudtshoorn, Nicolaes Verburch, Dirck Jansz Steur",
-      5
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Arnold de Vlaming van Oudtshoorn, Nicolaes Verburch, Dirck Jansz Steur, Pieter Sterthemius",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Arnold de Vlaming van Oudtshoorn, Nicolaes Verburch, Dirk Jansz Steur, Pieter Sterthemius",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Joan Cunaeus, Arnold de Vlaming van Oudtshoorn, Nicolaes Verburch, Dirck Jansz Steur",
-      2
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Joan Cunaeus, Arnold de Vlaming van Oudtshoorn, Nicolaes Verburch, Dirck Jansz Steur, Cornelis Caesar",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Joan Cunaeus, Cornelis Caesar, Dirck Jansz Steur",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Joan Cunaeus, Nicolaes Verburch, Dirck Jansz Steur",
-      3
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Joan Cunaeus, Nicolaes Verburch, Dirck Steur, Gaspar van den Bogaerde",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Joan Cunaeus, Nicolaes Verburch, Dirck Steur, Gaspar van den Bogaerde, Dircq Sarcerius",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Dirck Jansz Steur",
-      2
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Dirck Jansz Steur, Gaspar van den Bogaerde",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Dirck Jansz Steur, Joan Thijsz",
-      2
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Dirck Jansz Steur, Laurens Pit, Pieter Anthonisz Overtwater, Joan Thijsz, Adriaen van der Meyde, Pieter van Hoorn",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Laurens Pit, Pieter Anthonisz Overtwater, Joan Thijsz, Pieter van Hoorn, Jacob Cops",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Laurens Pit, Pieter Anthonisz Overtwater, Mattheus van den Brouck, Joan Thijsz, Johan van Dam, Pieter van Hoorn",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Mattheus van den Brouck, Joan Thijsz, Jacob Hustaert, Pieter van Hoorn",
-      3
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Mattheus van den Brouck, Joan Thijsz, Johan van Dam",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Mattheus van den Brouck, Joan Thijsz, Pieter van Hoorn, Jacob Cops",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Gerard Hulft, Carel Hartsinck, Joan Cunaeus, Aernout de Vlaming van Oudtshoorn, Nicolaes Verburch, Dirck Jansz Steur",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Gerard Hulft, Carel Hartsinck, Joan Cunaeus, Nicolaes Verburch, Dirck Steur",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Gerard Hulft, Carel Hartsinck, Joan Cunaeus, Nicolaes Verburch, Dirck Steur, Gaspar van den Bogaerde",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Gerard Hulft, Carel Hartsinck, Joan Cunaeus, Nicolaes Verburch, Dirck Steur, Willem van der Beecken",
-      2
-     ],
-     [
-      "Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Pieter van Hoorn",
-      14
-     ],
-     [
-      "Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Pieter van Hoorn, Jacob Cops, Willem Volger",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Pieter van Hoorn, Sibrant Abbema",
-      4
-     ],
-     [
-      "Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Pieter van Hoorn, Willem Volger",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Mattheus van den Brouck, Joan Thijsz",
-      4
-     ],
-     [
-      "Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Mattheus van den Brouck, Joan Thijsz, Pieter van Hoorn",
-      2
-     ],
-     [
-      "Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Mattheus van den Brouck, Pieter van Hoorn",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Mattheus van den Brouck, Pieter van Hoorn, Constantin Ranst",
-      6
-     ],
-     [
-      "Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Pieter van Hoorn",
-      4
-     ],
-     [
-      "Joan Maetsuycker, Nicolaes Verburch, Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Constantin Ranst, Pieter van Hoorn, Sibrant Abbema",
-      3
-     ],
-     [
-      "Joan Maetsuycker, Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Constantin Ranst, Pieter van Hoorn, Anthonio Paviljoen",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Constantin Ranst, Pieter van Hoorn, Anthonio Paviljoen, Hendrick van Reede",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Constantin Ranst, Pieter van Hoorn, Anthonio Paviljoen, Willem Volger, Hendrick van Reede",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Constantin Ranst, Pieter van Hoorn",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Constantin Ranst, Pieter van Hoorn, Anthonio Paviljoen",
-      1
-     ],
-     [
-      "Joan Maetsuycker, Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Constantin Ranst, Pieter van Hoorn, Sibrant Abbema",
-      2
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Abraham Douglas, Pieter de Vos, Adam van Rijn, Bernard Phoonsen, Hendrick Zwaardecroon",
-      1
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Abraham Douglas, Pieter de Vos, Adam van Rijn, Bernard Phoonsen, Hendrick Zwaardecroon, Cornelis Chasteleyn",
-      3
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Abraham Douglas, Pieter de Vos, Adam van Rijn, Cornelis Chasteleyn, Hendrick Zwaardecroon, Mattheus de Haan, Theodorus de Haeze, Laurens Tolling, Frans Castelyn",
-      1
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Abraham Douglas, Pieter de Vos, Adam van Rijn, Hendrick Zwaardecroon, Cornelis Chasteleyn",
-      1
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Abraham Douglas, Pieter de Vos, Adam van Rijn, Hendrick Zwaardecroon, Cornelis Chasteleyn, Mattheus de Haan",
-      3
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Adam van Rijn, Bernard Phoonsen, Hendrick Zwaardecroon",
-      1
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Adam van Rijn, Adriaan van der Stel, Hendrik Zwaardecroon, Cornelis Chasteleyn, Mattheus de Haan",
-      2
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Pieter de Vos, Adam van Rijn, Bernard Phoonsen, Hendrick Zwaardecroon, Cornelis Chasteleyn",
-      1
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Pieter de Vos, Bernard Phoonsen, Adam van Rijn, Hendrick Zwaardecroon, Henrick Becker, Cornelis Chasteleyn",
-      1
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Pieter de Vos, Bernard Phoonsen, Adam van Rijn, Hendrik Zwaardecroon, Henrick Becker, Cornelis Chasteleyn",
-      4
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Pieter de Vos, Dirk Comans, Bernard Phoonsen, Adam van Rijn, Hendrik Zwaardecroon, Henrik Becker, Cornelis Chasteleyn, Mattheus de Haan",
-      3
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Pieter de Vos, Dirk Comans, Bernard Phoonsen, Hendrik Zwaardecroon, Cornelis Chasteleyn, Mattheus de Haan",
-      1
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Christoffel van Swoll, Abraham Douglas, Pieter de Vos, Adam van Rijn, Adriaan van der Stel, Hendrik Zwaardecroon, Cornelis Chasteleyn, Willem de Roo, Mattheus de Haan",
-      1
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Joannes Cops, Manuel Bornezee, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Adam van Rijn, Adriaan van der Stel, Hendrick Zwaardecroon, Mattheus de Haan",
-      2
-     ],
-     [
-      "Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Joannes Cops, Manuel Bornezee, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Adam van Rijn, Adriaan van der Stel, Hendrik Zwaardecroon, Mattheus de Haan",
-      5
-     ],
-     [
-      "Joan van Hoorn, Raden van Indië",
-      1
-     ],
-     [
-      "Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Marten Pit, Cornelis van Quaelbergh",
-      1
-     ],
-     [
-      "Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Marten Pit, Cornelis van Quaelbergh, Joan van Hoorn",
-      2
-     ],
-     [
-      "Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Marten Pit, Jacob Pits, Joan van Hoorn, Nicolaas Schaghen, Isaac de Saint-martin, Gerard de Beveren, Robert Padtbrugge",
-      2
-     ],
-     [
-      "Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Marten Pit, Jacob Pits, Joan van Hoorn, Nicolaas Schaghen, Isaac de Saint-martin, Robert Padtbrugge",
-      1
-     ],
-     [
-      "Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Marten Pit, Joan van Hoorn",
-      1
-     ],
-     [
-      "Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Marten Pit, Joan van Hoorn, Cornelis van Quaelbergh, Isaac de Saint-martin, Gerard de Beveren",
-      1
-     ],
-     [
-      "Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Marten Pit, Joan van Hoorn, Nicolaas Schaghen, Isaac de Saint-martin, Gerard de Beveren",
-      1
-     ],
-     [
-      "Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Marten Pit, Nicolaas Schaghen, Joan van Hoorn",
-      3
-     ],
-     [
-      "Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Ryckloff van Goens, Marten Pit, Cornelis van Quaelbergh, Joan van Hoorn, Isaac de Saint-martin",
-      1
-     ],
-     [
-      "Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Ryckloff van Goens, Marten Pit, Cornelis van Quaelbergh, Joan van Hoorn, Isaac de Saint-martin, Thomas Slicher",
-      2
-     ],
-     [
-      "Joannes Camphuys, Willem van Outhoorn, Joan van Hoorn, Isaac de Saint-martin, Wouter Valckenier, Abraham van Riebeeck, Manuel Bornezee",
-      1
-     ],
-     [
-      "Joannes Camphuys, Willem van Outhoorn, Joan van Hoorn, Wouter Valckenier, Abraham van Riebeeck, Manuel Bornezee",
-      2
-     ],
-     [
-      "Joannes Camphuys, Willem van Outhoorn, Marten Pit, Jacob Pits, Joan van Hoorn, Isaac de Saint-martin, Gerard de Beveren",
-      1
-     ],
-     [
-      "Joannes Camphuys, Willem van Outhoorn, Marten Pit, Joan van Hoorn, Isaac de Saint-martin, Gerard de Beveren",
-      2
-     ],
-     [
-      "Joannes Camphuys, Willem van Outhoorn, Marten Pit, Joan van Hoorn, Isaac de Saint-martin, Gerard de Beveren, Wouter Valckenier",
-      3
-     ],
-     [
-      "Joannes Thedens, Daniël Nolthenius, Pieter Rochus Pasques de Chavonnes, Jacob Lakeman, Elias Guillot, Thomas van Spreekens, Nicolaas van Berendregt, Joannes Mattheus Cluysenaar, Maurits van Aerden, Nicolaas Crul",
-      2
-     ],
-     [
-      "Joannes Thedens, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Elias Guillot, Nicolaas van Berendregt, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden",
-      1
-     ],
-     [
-      "Joannes Thedens, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Elias Guillot, Nicolaas van Berendregt, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden",
-      2
-     ],
-     [
-      "Joannes Thedens, Joan Paul Schaghen, Herman van Suchtelen, Pieter Rochus Pasques de Chavonnes, Pieter Duquesne, Elias Guillot, Nicolaas van Berendregt, Nicolaas Crul, Joannes Macaré, Daniël Nolthenius, Maurits van Aerden",
-      1
-     ],
-     [
-      "Joannes Thedens, Pieter Rochus Pasques de Chavonnes, Daniël Nolthenius, Nicolaas van Berendregt, Jacob Lakeman, Thomas van Spreekens, Joannes Mattheus Cluysenaar, Nicolaas Crul",
-      1
-     ],
-     [
-      "Joannes Thedens, Pieter Rochus Pasques de Chavonnes, Elias Guillot, Nicolaas van Berendregt, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Jacob Lakeman, Thomas van Spreekens, Joannes Mattheus Cluysenaar",
-      1
-     ],
-     [
-      "Laurens Reael",
-      11
-     ],
-     [
-      "Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wijbrant Blom, Diderik Durven, Joan Everard van der Schuer, Stephanus Versluys, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Rogier Thomas van Heyningen, Herman van Bayen",
-      6
-     ],
-     [
-      "Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wijbrant Blom, Diderik Durven, Petrus Vuyst, Pieter Gabry, Jacob Willem Dubbeldekop, Joan Everard van der Schuer",
-      2
-     ],
-     [
-      "Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wijbrant Blom, Diderik Durven, Pieter Gabry, Jacob Willem Dubbeldekop, Joan Everard van der Schuer, Michiel Westpalm, Hendrik van Baerle",
-      2
-     ],
-     [
-      "Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wijbrant Blom, Diderik Durven, Pieter Gabry, Jacob Willem Dubbeldekop, Joan Everard van der Schuer, Michiel Westpalm, Henrik van Baerle",
-      1
-     ],
-     [
-      "Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wijbrant Blom, Diderik Durven, Pieter Gabry, Jacob Willem Dubbeldekop, Joan Everard van der Schuer, Stephanus Versluys, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Rogier Thomas van Heyningen",
-      2
-     ],
-     [
-      "Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wijbrant Blom, Diderik Durven, Pieter Gabry, Joan Everard van der Schuer, Stephanus Versluys, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Rogier Thomas van Heyningen",
-      1
-     ],
-     [
-      "Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wybrand Blom, Diderik Durven, Petrus Vuyst, Pieter Gabry, Jacob Willem Dubbeldekop, Joan Everard van der Schuer",
-      2
-     ],
-     [
-      "Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wybrand Blom, Diderik Durven, Pieter Gabry, Jacob Willem Dubbeldekop, Joan Everard van der Schuer, Michiel Westpalm, Hendrik van Baerle",
-      1
-     ],
-     [
-      "Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wybrand Blom, Diderik Durven, Pieter Gabry, Jacob Willem Dubbeldekop, Joan Everard van der Schuer, Stephanus Versluys, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Rogier Thomas van Heyningen",
-      2
-     ],
-     [
-      "Petrus Albertus van der Parra, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Michiel Romp, Willem Hendrik van Ossenberg, Maurits Theodorus Hilgers, Willem Arnold Alting, Pieter Cornelis Hasselaar",
-      2
-     ],
-     [
-      "Petrus Albertus van der Parra, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Nicolaas Harting, Louis Taillefert, Michiel Romp, Willem Hendrik van Ossenberg, Maurits Theodorus Hilgers, Willem Arnold Alting",
-      1
-     ],
-     [
-      "Petrus Albertus van der Parra, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Nicolaas Harting, Louis Taillefert, Michiel Romp, Willem Hendrik van Ossenberg, Maurits Theodorus Hilgers, Willem Arnold Alting, Pieter Cornelis Hasselaar",
-      3
-     ],
-     [
-      "Petrus Albertus van der Parra, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Willem Hendrik van Ossenberg, Louis Taillefert, Michiel Romp, Maurits Theodorus Hilgers, Pieter Haksteen, Willem Arnold Alting",
-      1
-     ],
-     [
-      "Petrus Albertus van der Parra, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Willem Hendrik van Ossenberg, Louis Taillefert, Michiel Romp, Maurits Theodorus Hilgers, Willem Arnold Alting",
-      1
-     ],
-     [
-      "Petrus Albertus van der Parra, Jurgen van der Spar, Huijbert Willem van Bazel, Librecht Hooreman, Jeremias van Riemsdijk, Reynier de Klerk, Jan Elias van Mijlendonk, Michiel Romp",
-      1
-     ],
-     [
-      "Petrus Albertus van der Parra, Librecht Hooreman, Jeremias van Riemsdijk, Huijbert Willem van Bazel, Jan Schreuder, Reynier de Klerk, Willem Hendrik van Ossenberg, Michiel Romp",
-      1
-     ],
-     [
-      "Petrus Albertus van der Parra, Librecht Hooreman, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Willem Hendrik van Ossenberg, Louis Taillefert, Michiel Romp, Maurits Theodorus Hilgers, Pieter Haksteen, Willem Arnold Alting",
-      1
-     ],
-     [
-      "Petrus Albertus van der Parra, Librecht Hooreman, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Willem Hendrik van Ossenberg, Michiel Romp, Maurits Theodorus Hilgers",
-      1
-     ],
-     [
-      "Petrus Albertus van der Parra, Librecht Hooreman, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Willem Hendrik van Ossenberg, Michiel Romp, Maurits Theodorus Hilgers, Pieter Haksteen, Willem Arnold Alting",
-      2
-     ],
-     [
-      "Petrus Albertus van der Parra, Librecht Hooreman, Jurgen van der Spar, Jeremias van Riemsdijk, Huijbert Willem van Bazel, Reynier de Klerk, Willem Hendrik van Ossenberg, Jan Elias van Mijlendonk, Michiel Romp",
-      1
-     ],
-     [
-      "Petrus Albertus van der Parra, Librecht Hooreman, Jurgen van der Spar, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Willem Hendrik van Ossenberg, Louis Taillefert, Michiel Romp, Maurits Theodorus Hilgers, Pieter Haksteen, Willem Arnold Alting",
-      1
+      "Bornezee",
+      53
      ],
      [
-      "Petrus Albertus van der Parra, Librecht Hooreman, Jurgen van der Spar, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Willem Hendrik van Ossenberg, Michiel Romp, Maurits Theodorus Hilgers",
-      2
+      "Bort",
+      25
      ],
      [
-      "Pieter Both",
+      "Both",
       22
      ],
      [
-      "Pieter de Carpentier",
-      1
+      "Brouwer",
+      13
      ],
      [
-      "Pieter de Carpentier, Frederick de Houtman, Jacob Dedel Dr, Martinus Sonck, Jacques Specx",
-      1
+      "Caen",
+      13
      ],
      [
-      "Pieter de Carpentier, Frederick de Houtman, Jacob Dedel Dr, Martinus Sonck, Jacques Specx, Jan van Gorcom",
-      1
+      "Caesar",
+      7
      ],
      [
-      "Pieter de Carpentier, Jacob Dedel",
-      1
+      "Camphuys",
+      51
      ],
      [
-      "Pieter de Carpentier, Jacob Dedel Dr, Martinus Sonck, Jacques Specx, Jan van Gorcom",
-      1
+      "Caron",
+      11
      ],
      [
-      "Pieter de Carpentier, Jacob Dedel, Cornelis Reyersz, Abraham van Uffelen",
-      1
+      "Castelyn",
+      44
      ],
      [
-      "Pieter de Carpentier, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen",
+      "Chasteleyn",
+      36
+     ],
+     [
+      "Cluysenaar",
+      58
+     ],
+     [
+      "Coen",
+      25
+     ],
+     [
+      "Comans",
       4
      ],
      [
-      "Pieter de Carpentier, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen, Wijbrant Schram",
+      "Cops",
+      44
+     ],
+     [
+      "Coyett",
+      17
+     ],
+     [
+      "Croocq",
       1
      ],
      [
-      "Pieter de Carpentier, Raden",
+      "Crudop",
+      18
+     ],
+     [
+      "Crul",
+      39
+     ],
+     [
+      "Cunaeus",
+      19
+     ],
+     [
+      "De Beveren",
+      10
+     ],
+     [
+      "De Carpentier",
+      31
+     ],
+     [
+      "De Groot",
+      14
+     ],
+     [
+      "De Haan",
+      97
+     ],
+     [
+      "De Haas",
+      32
+     ],
+     [
+      "De Haeze",
+      56
+     ],
+     [
+      "De Houtman",
       5
      ],
      [
-      "Pieter de Carpentier, Wijbrant Schram, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen",
-      1
+      "De Klerk",
+      37
      ],
      [
-      "Pieter de Carpentier, Willem Jansz, Jacques Specx",
-      1
-     ],
-     [
-      "Ryckloff van Goens, Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Dirck Blom, Joannes Camphuys",
-      1
-     ],
-     [
-      "Ryckloff van Goens, Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Dirck Blom, Willem van Outhoorn, Joannes Camphuys",
+      "De Meester",
       4
      ],
      [
-      "Ryckloff van Goens, Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Dirck Blom, Willem van Outhoorn, Joannes Camphuys, Frederik Bent",
+      "De Nijs",
+      29
+     ],
+     [
+      "De Roo",
       1
      ],
      [
-      "Ryckloff van Goens, Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Willem van Outhoorn, Frederik Bent",
-      1
+      "De Saint-martin",
+      26
      ],
      [
-      "Ryckloff van Goens, Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Willem van Outhoorn, Joannes Camphuys, Frederik Bent",
-      6
+      "De Vlaming van Oudtshoorn",
+      18
      ],
      [
-      "Ryckloff van Goens, Cornelis Speelman, Balthasar Bort, Willem van Outhoorn, Joannes Camphuys",
-      4
+      "De Vos",
+      24
      ],
      [
-      "Ryckloff van Goens, Cornelis Speelman, Willem van Outhoorn, Joannes Camphuys, Jacob Pits",
-      1
+      "De Wilde",
+      22
      ],
      [
-      "Ryckloff van Goens, Cornelis Speelman, Willem van Outhoorn, Joannes Camphuys, Jacob Pits, Constantijn Nobel",
-      1
-     ],
-     [
-      "Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Pieter van Hoorn, Anthonio Paviljoen",
+      "De With",
       2
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Joannes Cops, Manuel Bornezee, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Adam van Rijn, Adriaan van der Stel",
+      "De Witte",
+      42
+     ],
+     [
+      "Dedel",
+      11
+     ],
+     [
+      "Demmer",
+      11
+     ],
+     [
+      "Douglas",
+      54
+     ],
+     [
+      "Dubbeldekop",
+      12
+     ],
+     [
+      "Duquesne",
+      24
+     ],
+     [
+      "Durven",
+      63
+     ],
+     [
+      "Faes",
+      42
+     ],
+     [
+      "Gabry",
+      13
+     ],
+     [
+      "Gardenijs",
       1
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Joannes Cops, Manuel Bornezee, Jacob van Dam, Christoffel van Swoll, Abraham Douglas, Adam van Rijn",
+      "Geleynsz de Jongh",
       1
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Joannes Cops, Manuel Bornezee, Jacob van Dam, Christoffel van Swoll, Abraham Douglas, Hendrik Joan Winkelman, Adam van Rijn",
+      "Gijsels",
+      4
+     ],
+     [
+      "Gouverneur-generaal",
       1
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Joannes Cops, Manuel Bornezee, Jacob van Dam, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Adam van Rijn, Adriaan van der Stel",
-      1
+      "Guillot",
+      19
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Manuel Bornezee, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Adam van Rijn, Adriaan van der Stel",
-      1
-     ],
-     [
-      "Willem van Outhoorn, Joan van Hoorn, Isaac de Saint-martin, Dirk de Haas, Wouter Valckenier, Abraham van Riebeeck, Manuel Bornezee, Wybrand Lycochthon",
-      1
-     ],
-     [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Abraham van Riebeeck, Joannes Cops, Manuel Bornezee, Jacob van Dam, Christoffel van Swoll",
+      "Haksteen",
       5
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Abraham van Riebeeck, Joannes Cops, Manuel Bornezee, Jacob van Dam, Christoffel van Swoll, Abraham Douglas",
+      "Harting",
+      4
+     ],
+     [
+      "Hartsinck",
+      42
+     ],
+     [
+      "Hasselaar",
+      75
+     ],
+     [
+      "Hendrix",
+      5
+     ],
+     [
+      "Heussen",
       1
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Dirk de Haas, Abraham van Riebeeck, Joannes Cops, Manuel Bornezee, Laurens Pit, Thomas van Rhee, Jacob van Dam",
+      "Hilgers",
+      15
+     ],
+     [
+      "Hooreman",
+      35
+     ],
+     [
+      "Hulft",
+      5
+     ],
+     [
+      "Hurdt",
+      38
+     ],
+     [
+      "Hustaert",
       3
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Dirk de Haas, Abraham van Riebeeck, Joannes Cops, Manuel Bornezee, Thomas van Rhee, Jacob van Dam, Christoffel van Swoll",
+      "Huyghens",
       6
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Dirk de Haas, Abraham van Riebeeck, Wouter Valckenier, Joannes Cops, Manuel Bornezee, Wybrand Lycochthon, Thomas van Rhee",
+      "Huysman",
+      50
+     ],
+     [
+      "Jansz",
       4
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Dirk de Haas, Abraham van Riebeeck, Wouter Valckenier, Joannes Cops, Manuel Bornezee, Wybrand Lycochthon, Thomas van Rhee, Jacob van Dam",
+      "Lakeman",
+      15
+     ],
+     [
+      "Lam",
+      1
+     ],
+     [
+      "Lefebvre",
+      1
+     ],
+     [
+      "Loten",
+      12
+     ],
+     [
+      "Lucasz",
+      9
+     ],
+     [
+      "Lycochthon",
+      23
+     ],
+     [
+      "Macaré",
+      10
+     ],
+     [
+      "Maetsuycker",
+      108
+     ],
+     [
+      "Mersen",
       5
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Dirk de Haas, Abraham van Riebeeck, Wouter Valckenier, Joannes Cops, Manuel Bornezee, Wybrand Lycochthon, Willem van Wijngaerden",
-      2
+      "Mossel",
+      76
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Dirk de Haas, Wouter Valckenier, Abraham van Riebeeck, Manuel Bornezee, Wybrand Lycochthon",
+      "Nieustadt",
+      6
+     ],
+     [
+      "Nobel",
       1
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Isaac de Saint-martin, Dirk de Haas, Abraham van Riebeeck, Joan van Leene, Wouter Valckenier, Manuel Bornezee, Wybrand Lycochthon, Joachim Nieustadt",
+      "Nolthenius",
+      41
+     ],
+     [
+      "Nuyts",
       1
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Isaac de Saint-martin, Dirk de Haas, Abraham van Riebeeck, Wouter Valckenier, Joan van Leene, Manuel Bornezee, Wybrand Lycochthon, Willem van Wijngaerden",
+      "Oostwalt",
+      30
+     ],
+     [
+      "Ottens",
       1
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Isaac de Saint-martin, Dirk de Haas, Abraham van Riebeeck, Wouter Valckenier, Joannes Cops, Manuel Bornezee, Wybrand Lycochthon, Joachim Nieustadt",
-      1
+      "Overbeek",
+      41
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Isaac de Saint-martin, Dirk de Haas, Abraham van Riebeeck, Wouter Valckenier, Joannes Cops, Manuel Bornezee, Wybrand Lycochthon, Joachim Nieustadt, Willem van Wijngaerden",
+      "Overtwater",
+      57
+     ],
+     [
+      "Padtbrugge",
       3
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Isaac de Saint-martin, Dirk de Haas, Abraham van Riebeeck, Wouter Valckenier, Manuel Bornezee, Wybrand Lycochthon, Joachim Nieustadt, Willem van Wijngaerden",
+      "Pasques de Chavonnes",
+      47
+     ],
+     [
+      "Patras",
+      24
+     ],
+     [
+      "Paviljoen",
+      6
+     ],
+     [
+      "Phoonsen",
+      15
+     ],
+     [
+      "Pielat",
+      8
+     ],
+     [
+      "Pijl",
+      50
+     ],
+     [
+      "Pit",
+      84
+     ],
+     [
+      "Pits",
+      6
+     ],
+     [
+      "Putmans",
       1
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Isaac de Saint-martin, Dirk de Haas, Jan van Leene, Wouter Valckenier, Abraham van Riebeeck, Manuel Bornezee, Wybrand Lycochthon",
+      "Raden",
+      6
+     ],
+     [
+      "Raden van Indië",
+      1
+     ],
+     [
+      "Ranst",
+      16
+     ],
+     [
+      "Reael",
+      11
+     ],
+     [
+      "Reniers",
+      21
+     ],
+     [
+      "Reyersz",
+      1
+     ],
+     [
+      "Reynst",
+      3
+     ],
+     [
+      "Romp",
+      18
+     ],
+     [
+      "Rooselaar",
+      19
+     ],
+     [
+      "Sarcerius",
+      1
+     ],
+     [
+      "Sautijn",
+      3
+     ],
+     [
+      "Schaghen",
+      58
+     ],
+     [
+      "Schouten",
+      13
+     ],
+     [
+      "Schram",
       2
      ],
      [
-      "Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Isaac de Saint-martin, Dirk de Haas, Wouter Valckenier, Abraham van Riebeeck, Manuel Bornezee, Wybrand Lycochthon",
+      "Schreuder",
+      20
+     ],
+     [
+      "Schuylenburg",
+      11
+     ],
+     [
+      "Sichterman",
+      2
+     ],
+     [
+      "Sipman",
+      5
+     ],
+     [
+      "Six",
+      7
+     ],
+     [
+      "Slicher",
+      2
+     ],
+     [
+      "Sonck",
+      7
+     ],
+     [
+      "Specx",
+      15
+     ],
+     [
+      "Speelman",
+      54
+     ],
+     [
+      "Sterthemius",
+      2
+     ],
+     [
+      "Steur",
+      34
+     ],
+     [
+      "Sweers",
+      15
+     ],
+     [
+      "Taillefert",
+      8
+     ],
+     [
+      "Thedens",
+      47
+     ],
+     [
+      "Theling",
+      8
+     ],
+     [
+      "Thijsz",
+      16
+     ],
+     [
+      "Timmerman",
+      37
+     ],
+     [
+      "Tolling",
+      59
+     ],
+     [
+      "Valckenier",
+      77
+     ],
+     [
+      "Van Aerden",
+      29
+     ],
+     [
+      "Van Alphen",
+      6
+     ],
+     [
+      "Van Antzen",
+      6
+     ],
+     [
+      "Van Arrewijne",
+      3
+     ],
+     [
+      "Van Baerle",
+      33
+     ],
+     [
+      "Van Bayen",
+      43
+     ],
+     [
+      "Van Bazel",
+      50
+     ],
+     [
+      "Van Berendregt",
+      16
+     ],
+     [
+      "Van Broeckum",
       1
+     ],
+     [
+      "Van Broyel",
+      46
+     ],
+     [
+      "Van Cloon",
+      24
+     ],
+     [
+      "Van Dam",
+      25
+     ],
+     [
+      "Van Diemen",
+      55
+     ],
+     [
+      "Van Dishoeck",
+      10
+     ],
+     [
+      "Van Dutecum",
+      5
+     ],
+     [
+      "Van Duynen",
+      4
+     ],
+     [
+      "Van Goens",
+      35
+     ],
+     [
+      "Van Gollenesse",
+      15
+     ],
+     [
+      "Van Gorcom",
+      3
+     ],
+     [
+      "Van Heyningen",
+      25
+     ],
+     [
+      "Van Hohendorf",
+      19
+     ],
+     [
+      "Van Hoorn",
+      155
+     ],
+     [
+      "Van Imhoff",
+      55
+     ],
+     [
+      "Van Leene",
+      4
+     ],
+     [
+      "Van Mijlendonk",
+      7
+     ],
+     [
+      "Van Ossenberg",
+      17
+     ],
+     [
+      "Van Outhoorn",
+      93
+     ],
+     [
+      "Van Quaelbergh",
+      7
+     ],
+     [
+      "Van Raemburch",
+      1
+     ],
+     [
+      "Van Reede",
+      2
+     ],
+     [
+      "Van Rhee",
+      18
+     ],
+     [
+      "Van Rheede",
+      27
+     ],
+     [
+      "Van Riebeeck",
+      88
+     ],
+     [
+      "Van Riemsdijk",
+      41
+     ],
+     [
+      "Van Rijn",
+      34
+     ],
+     [
+      "Van Schinne",
+      26
+     ],
+     [
+      "Van Schooten",
+      42
+     ],
+     [
+      "Van Spreekens",
+      4
+     ],
+     [
+      "Van Steelant",
+      5
+     ],
+     [
+      "Van Suchtelen",
+      33
+     ],
+     [
+      "Van Swoll",
+      76
+     ],
+     [
+      "Van Teylingen",
+      1
+     ],
+     [
+      "Van Twist",
+      1
+     ],
+     [
+      "Van Uffelen",
+      1
+     ],
+     [
+      "Van Wijngaerden",
+      7
+     ],
+     [
+      "Van de Velde",
+      31
+     ],
+     [
+      "Van den Bogaerde",
+      4
+     ],
+     [
+      "Van den Bosch",
+      28
+     ],
+     [
+      "Van den Brouck",
+      19
+     ],
+     [
+      "Van den Heuvel",
+      1
+     ],
+     [
+      "Van der Beecken",
+      3
+     ],
+     [
+      "Van der Burch",
+      14
+     ],
+     [
+      "Van der Lijn",
+      37
+     ],
+     [
+      "Van der Maas",
+      1
+     ],
+     [
+      "Van der Meyde",
+      1
+     ],
+     [
+      "Van der Parra",
+      70
+     ],
+     [
+      "Van der Schuer",
+      47
+     ],
+     [
+      "Van der Spar",
+      53
+     ],
+     [
+      "Van der Stel",
+      13
+     ],
+     [
+      "Van der Waeyen",
+      54
+     ],
+     [
+      "Verburch",
+      76
+     ],
+     [
+      "Verijssel",
+      21
+     ],
+     [
+      "Versluys",
+      11
+     ],
+     [
+      "Versteghen",
+      4
+     ],
+     [
+      "Vlack",
+      21
+     ],
+     [
+      "Volger",
+      3
+     ],
+     [
+      "Vuyst",
+      10
+     ],
+     [
+      "Welsing",
+      3
+     ],
+     [
+      "Westpalm",
+      45
+     ],
+     [
+      "Winkelman",
+      1
+     ],
+     [
+      "Witsen",
+      2
+     ],
+     [
+      "Wouters",
+      5
+     ],
+     [
+      "Ysbrantsz",
+      3
+     ],
+     [
+      "Zwaardecroon",
+      90
+     ],
+     [
+      "d'Ableing",
+      37
      ]
     ],
+    "valueMapAcro": false,
     "tip": false,
     "pos": "author",
     "pattern": "",
-    "description": "full author names"
+    "description": "author names (surnames only)"
    },
    "date": {
+    "explain": null,
     "valueMap": [
      [
       "1610-10-14",
@@ -3839,12 +3412,14 @@ const configData = {
       3
      ]
     ],
+    "valueMapAcro": false,
     "tip": false,
     "pos": "date",
     "pattern": "",
     "description": "date as yyyy-mm-dd"
    },
    "place": {
+    "explain": null,
     "valueMap": [
      [
       "Amboina",
@@ -3923,6 +3498,7 @@ const configData = {
       1
      ]
     ],
+    "valueMapAcro": false,
     "tip": false,
     "pos": "place",
     "pattern": "",
@@ -3931,6 +3507,7 @@ const configData = {
   },
   "volume": {
    "number": {
+    "explain": null,
     "valueMap": [
      [
       1,
@@ -3989,6 +3566,7 @@ const configData = {
       1
      ]
     ],
+    "valueMapAcro": false,
     "tip": false,
     "pos": "number",
     "pattern": "",
