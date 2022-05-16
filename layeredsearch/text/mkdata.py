@@ -80,6 +80,18 @@ def combiFeatures(maker):
     combiV["date"] = date
     combiFreqList["date"] = dateFreq.items()
 
+    authorFreq = collections.Counter()
+    Fauthor = F.author.v
+
+    for lt in F.otype.s("letter"):
+        authorStr = Fauthor(lt)
+        if authorStr:
+            authors = authorStr.split(", ")
+            for author in authors:
+                authorFreq[author] += 1
+
+    combiFreqList["author"] = authorFreq.items()
+
 
 def makeLegends(maker):
     A = maker.A
@@ -110,9 +122,12 @@ def makeLegends(maker):
             if feature == "textLoc"
             else combiFreqList["date"]
             if feature == "date"
+            else combiFreqList["author"]
+            if feature == "author"
             else Fs(feature).freqList(nodeTypes={level})
         )
         info["legend"] = sorted(freqList)
+        # info["legend"] = sorted(freqList)
 
 
 def record(maker):

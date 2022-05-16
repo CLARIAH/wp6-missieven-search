@@ -56,17 +56,23 @@ layerSettings:
     layers:
       text:
         afterFeature: punc
-        default: ¿
+        default: " "
         description: text representation
         feature: trans
         pos: null
         visible: true
       kind:
-        default: ¿
+        default: " "
         description: text kind
         feature: kind
         pos: null
         visible: true
+        explain:
+          r: editorial
+          n: foot note
+          o: original letter
+          f: folio reference
+          "?": other kind
   line:
     description: physical lines in the printed edition
     focus: true
@@ -90,8 +96,8 @@ layerSettings:
         visible: false
       author:
         default: -1
-        description: full author names
-        feature: authorFull
+        description: author names (surnames only)
+        feature: author
         pos: null
         visible: true
       date:

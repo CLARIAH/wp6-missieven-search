@@ -1,11 +1,11 @@
 writing: ""
 
 data:
-  org: Dans-labs
-  repo: clariah-gm
+  org: clariah
+  repo: wp6-missieven
   rel: tf
-  version: "0.8"
-  docUrl: «ghUrl»/«data.org»/«data.repo»/blob/master/docs/transcription.md
+  version: "1.0"
+  docUrl: «ghUrl»/«data.org»/«data.repo»/blob/master/docs/about.md
 
 corpus:
   text: General Missives
