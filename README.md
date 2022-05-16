@@ -1,4 +1,4 @@
-![logo](code/static/logo.png)
+![logo](images/logo.png)
 
 # General Missives
 
