@@ -15,7 +15,7 @@ const configData = {
   }
  },
  "defs": {
-  "lsVersion": "v096@2022-05-16T12:57:18",
+  "lsVersion": "v097@2022-05-16T13:17:10",
   "client": "text",
   "org": "clariah",
   "repo": "wp6-missieven",
